@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #66ccff; /* Celeste claro */
+    color: white;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #0472e7, #00C6FF); /* Gradiente azul */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Logo con fondo degradado */
+.logo {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #007BFF, #00C6FF); /* Gradiente azul */
+}
+
+/* Imagen del logo con animación */
+.logo img {
+    width: 280px;
+    animation: mover 5s infinite alternate;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #19b1fd; /* Otro tono celeste */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos en negro */
+h1, h2, h3 {
+    color: black;
+}
+
+/* Secciones internas */
+main section {
+    margin-bottom: 30px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #33b5e5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Animación de la imagen */
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

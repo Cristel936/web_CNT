@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Internet Banda Ancha CNT</title>
+    <link rel="stylesheet" href="pagina3.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="cnt3.png" alt="Logo CNT">
+        </div>
+        <h1>Solicitud de Internet Banda Ancha</h1>
+    </header>
+
+    <main>
+        <section id="formulario">
+            <h2>📋 Completa el formulario</h2>
+            <p>Ingresa tus datos para solicitar el servicio de Internet Banda Ancha.</p>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia" required>
+                    <option value="">Seleccione una provincia</option>
+                    <option value="Pichincha">Pichincha</option>
+                    <option value="Guayas">Guayas</option>
+                    <option value="Azuay">Azuay</option>
+                    <option value="Manabí">Manabí</option>
+                    <option value="Manabí">Tungurahua</option>
+                </select>
+
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="referencia">Referencia:</label>
+                <input type="text" id="referencia" name="referencia">
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+                <button type="submit"> Enviar </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CNT Ecuador - Todos los derechos reservados.</p>
+        <h><a href="index.html">Regresar a la pagina anterior</a></h>
+    </footer>
+</body>
+</html>

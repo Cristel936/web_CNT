@@ -1,0 +1,115 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Celeste muy suave */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #00bcd4; /* Celeste fuerte */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 200px;
+    margin-bottom: 10px;
+    animation: mover 5s infinite alternate;
+}
+
+h1 {
+    margin: 10px 0 0 0;
+    font-size: 28px;
+    color: #000;
+    padding: 10px;
+    background: white;
+    border: 2px solid #00acc1;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+    background: #0dbdd4;
+    border-radius: 0px; /* Esquinas rectas */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección formulario */
+section#formulario {
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #00acc1;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Título de sección */
+section#formulario h2 {
+    color: black;
+    font-size: 24px;
+    background: #e0f7fa;
+    border: 2px solid #00acc1;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    color: #006064;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #00acc1;
+    border-radius: 0px; /* Esquinas rectas */
+    background-color: #f1f8f9;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #00acc1;
+    color: white;
+    border: none;
+    padding: 5px 15px;  /* Espaciado alrededor del texto */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.4s ease;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    display: inline-block;
+    width: 80px; /* Establece un ancho fijo más estrecho */
+}
+
+button:hover {
+    background-color: #00838f;
+    transform: rotate(360deg);
+}
+/* Pie de página */
+footer {
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Link de regreso */
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
+}

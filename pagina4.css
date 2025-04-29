@@ -1,0 +1,117 @@
+/* Tipografía general */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2ebf2; /* Celeste muy suave */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #00bcd4; /* Celeste fuerte */
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+/* Título principal */
+h1 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    transform: rotate(-2deg);             /* Giro leve inicial */
+    transition: transform 0.3s ease;      /* Transición suave */
+}
+
+h1:hover {
+    transform: rotate(2deg);              /* Giro contrario al pasar el mouse */
+}
+
+/* Contenido principal */
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #e0f7fa;
+    border-radius: 0px; /* Esquinas rectas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+/* Títulos de secciones */
+h2 {
+    background-color: #00acc1;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+}
+
+h2:hover {
+    transform: rotate(2deg);
+}
+
+/* Tablas */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #00bcd4;
+}
+
+th {
+    background-color: #00acc1;
+    color: white;
+    font-weight: bold;
+}
+
+/* Links dentro de la tabla */
+table a {
+    color: #00acc1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #00bcd4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Enlace de regreso */
+footer a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
